@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/07ef921c81.js" crossorigin="anonymous"></script>
         <title>Booki</title>
     </head>
     <body>
@@ -18,11 +18,18 @@
             </nav>
         </header>
         <main>
-            <section class="first_section">
+            <section class="search_section">
                 <h1>
                     Trouvez votre hébergement pour des vacances de rêve
                 </h1>
                 <p>En plein centre ville ou en pleine nature</p>
+                <form action="post" class="searchbar">
+                    <span class="form_picture">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <input type="text" name="text" id="text">
+                    <button class="form_button">Recherche</button>
+                </form>
             </section>
         </main>
     </body>
