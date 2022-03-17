@@ -34,23 +34,35 @@ header img {
 header nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-right: 60px;
 }
 
-header nav li {
+header nav {
   list-style: none;
-  margin-right: 35px;
+  display: inline-block;
+  position: relative;
 }
 
-header nav li a {
+header nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  position: relative;
+  padding: 15px 45px;
 }
 
-.blue_link {
+.navlink[data-click="true"] {
   color: var(--main-blue);
+  border-top: 3px solid var(--main-blue);
+}
+
+.navlink {
+  transition: color 0.3s;
+}
+
+.navlink:hover {
+  color: var(--main-blue);
+  border-top: 3px solid var(--main-blue);
 }
 
 /* Modile Version */
@@ -67,5 +79,10 @@ header nav li a {
   header nav {
     justify-content: space-between;
     margin: 15px 0 0 0;
+  }
+
+  .navlink[data-click="true"] {
+    border-top: none;
+    border-bottom: 2px solid var(--main-blue);
   }
 }
