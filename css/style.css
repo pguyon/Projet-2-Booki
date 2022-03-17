@@ -131,6 +131,64 @@ main {
   color: white;
 }
 
+/* Filter  */
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 75%;
+  border: 1px solid black;
+  margin-left: 33px;
+}
+.p_filter {
+  font-weight: var(--title-font-weight);
+}
+
+.filter_box {
+  display: flex;
+}
+
+.filter_wrap .filter_box {
+  position: relative;
+  width: 210px;
+  height: 50px;
+}
+
+.filter_wrap .filter_box .btn {
+  background-color: rgb(205, 233, 255);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.filter_wrap .filter_box .btn.btn_common .fa-solid {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--main-blue);
+  font-size: 20px;
+}
+
+.filter_wrap .filter_box .input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px 70px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  border: 1px solid grey;
+}
+
 /* Tablette Version  */
 @media screen and (max-width: 991px) {
 }
@@ -146,7 +204,7 @@ main {
   }
 
   header nav {
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 15px 0 0 0;
   }
 
@@ -156,7 +214,7 @@ main {
   }
 
   .navlink {
-    border-bottom: 2px solid var(--background);
+    border-bottom: 0.5px solid var(--background);
   }
 
   .search_section h1 {
@@ -178,6 +236,7 @@ main {
 
   .form_input {
     width: 80%;
+    border-right: none;
   }
 
   .form_button_desktop {
@@ -186,11 +245,12 @@ main {
 
   .form_button_mobile {
     display: block;
+    margin-right: 25px;
     background-color: var(--main-blue);
     padding: 11px;
     color: white;
     border: none;
-    border-radius: 0 10px 10px 0;
+    border-radius: 0px 10px 10px 0px;
     font-size: var(--p-font-size);
     font-weight: var(--title-font-weight);
     cursor: pointer;
