@@ -4,7 +4,7 @@
   --background: #f2f2f2;
   --main-blue: #0065fc;
   --light-blue: #deebff;
-  --title-font-size: 20px;
+  --title-font-size: 25px;
   --title-font-weight: 900;
   --p-font-size: 15px;
   --p-font-weight: 500;
@@ -26,7 +26,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 3px;
+  padding: 15px;
 }
 
 header img {
@@ -69,7 +69,7 @@ header nav a {
 
 /* Main  */
 main {
-  padding: 15px;
+  padding: 20px;
 }
 
 /* First_section  */
@@ -96,14 +96,21 @@ main {
 .form_picture {
   background-color: var(--background);
   border-radius: 10px 0 0 10px;
-  width: 10%;
+  width: 40px;
+  padding: 12px;
+}
+
+.form_picture i {
+  margin-left: 4px;
 }
 
 .form_input {
   border: 0.5px solid var(--background);
+  font-weight: bold;
+  padding: 10px;
 }
 
-.form_button {
+.form_button_desktop {
   background-color: var(--main-blue);
   padding: 11px;
   color: white;
@@ -114,11 +121,17 @@ main {
   cursor: pointer;
 }
 
+.form_button_mobile {
+  display: none;
+}
+
+.form_button_desktop:hover {
+  background-color: rgb(4, 4, 214);
+  color: white;
+}
+
 /* Tablette Version  */
 @media screen and (max-width: 991px) {
-  .search_section h1 {
-    color: green;
-  }
 }
 /* Modile Version */
 @media screen and (max-width: 767px) {
@@ -140,7 +153,45 @@ main {
     border-top: none;
     border-bottom: 2px solid var(--main-blue);
   }
+
+  .navlink {
+    border-bottom: 2px solid var(--background);
+  }
+
   .search_section h1 {
-    color: red;
+    width: 80%;
+    margin-left: 0;
+    font-size: 22px;
+    font-weight: var(--title-font-weight);
+    margin-bottom: 10px;
+  }
+
+  .search_section p {
+    margin-left: 0;
+  }
+
+  .searchbar {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .form_input {
+    width: 80%;
+  }
+
+  .form_button_desktop {
+    display: none;
+  }
+
+  .form_button_mobile {
+    display: block;
+    background-color: var(--main-blue);
+    padding: 11px;
+    color: white;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-size: var(--p-font-size);
+    font-weight: var(--title-font-weight);
+    cursor: pointer;
   }
 }
