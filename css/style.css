@@ -52,3 +52,20 @@ header nav li a {
 .blue_link {
   color: var(--main-blue);
 }
+
+/* Modile Version */
+@media screen and (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header nav {
+    justify-content: space-between;
+    margin: 15px 0 0 0;
+  }
+}
