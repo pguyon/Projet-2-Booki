@@ -153,6 +153,12 @@ main {
   height: 50px;
   border-radius: 30px;
   margin-right: 20px;
+  cursor: pointer;
+}
+
+.filter_box:hover {
+  background-color: var(--background);
+  transform: scale(1.02);
 }
 
 .filter_icon {
@@ -244,5 +250,10 @@ main {
   }
   .p_filter {
     width: 250px;
+    margin-left: -25px;
+  }
+  .filter_box {
+    margin-bottom: 10px;
+    margin-left: -25px;
   }
 }
