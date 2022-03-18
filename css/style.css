@@ -282,4 +282,16 @@ main {
     margin-bottom: 10px;
     margin-left: -25px;
   }
+
+  /* info */
+  .info {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    width: 110%;
+  }
+
+  .info .info_text {
+    width: 100%;
+  }
 }
