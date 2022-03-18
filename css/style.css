@@ -133,76 +133,47 @@ main {
 
 /* Filter  */
 .filter {
+  margin-left: 35px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
-  width: 55%;
-  margin-top: 15px;
-  margin-left: 33px;
+  margin-bottom: 35px;
 }
+
 .p_filter {
-  font-weight: var(--title-font-weight);
+  margin-right: 30px;
 }
 
 .filter_box {
+  border: 2px solid var(--background);
+  border-left: none;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
 }
 
-.filter_wrap .filter_box {
-  position: relative;
-  width: 210px;
-  height: 40px;
-}
-
-.filter_wrap .filter_box .btn {
-  background-color: rgb(205, 233, 255);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 100%;
-  z-index: 1;
-  cursor: pointer;
-  border-radius: 50px;
-}
-
-.filter_wrap .filter_box .btn.btn_common .fa-solid {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.filter_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  width: 52px;
+  height: 52px;
   color: var(--main-blue);
-  font-size: 20px;
+  background-color: var(--light-blue);
 }
 
-.filter_wrap .filter_box .input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 10px 70px;
-  border-radius: 50px;
-  font-size: 18px;
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
   color: black;
   font-weight: bold;
-  border: 1px solid grey;
-  cursor: pointer;
-}
-.filter_wrap .filter_box .family {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 10px 85px;
-  border-radius: 50px;
-  font-size: 18px;
-  color: black;
-  font-weight: bold;
-  border: 1px solid grey;
-  cursor: pointer;
 }
 
 /* Tablette Version  */
@@ -270,5 +241,8 @@ main {
     font-size: var(--p-font-size);
     font-weight: var(--title-font-weight);
     cursor: pointer;
+  }
+  .p_filter {
+    width: 250px;
   }
 }
