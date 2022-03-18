@@ -4,7 +4,7 @@
   --background: #f2f2f2;
   --main-blue: #0065fc;
   --light-blue: #deebff;
-  --title-font-size: 25px;
+  --title-font-size: 20px;
   --title-font-weight: 900;
   --p-font-size: 15px;
   --p-font-weight: 500;
@@ -206,6 +206,26 @@ main {
   height: 20px;
   color: var(--main-blue);
   font-weight: 900;
+}
+
+/* Hébergement */
+.hebergement {
+  margin: 25px 55px 0 25px;
+  padding: 30px;
+  background-color: var(--background);
+  border-radius: 15px;
+}
+
+.hebergement .hebergement_left {
+  width: 60%;
+  border: 1px solid red;
+}
+.hebergement .hebergement_left .hebergement_title h2 {
+  font-size: var(--title-font-size);
+}
+
+.hebergement .hebergement_left .hebergement_left_more {
+  font-weight: var(--title-font-weight);
 }
 
 /* Tablette Version  */
