@@ -212,30 +212,44 @@ main {
 
 .result {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 675px;
+}
+
+.result .result_main {
+  display: flex;
   flex-direction: column;
-  height: 650px;
-  margin-top: 35px;
-  border: 1px solid black;
+  width: 60%;
+  padding: 15px;
+  background-color: var(--background);
+  border-radius: 15px;
+  margin-left: 25px;
 }
 
 .result .all_cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 60%;
+  justify-content: space-around;
 }
 
 .result .all_cards a {
   width: 30%;
   height: 200px;
-  border: 1px solid red;
+  background-color: white;
+  border-radius: 15px;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .result .result_title h2 {
   font-size: var(--title-font-size);
-  margin-left: 30px;
+  margin-left: 20px;
+}
+
+.result .info {
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 /* Tablette Version  */
