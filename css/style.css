@@ -213,9 +213,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin: 25px 55px 0 25px;
-  padding: 30px;
-  background-color: var(--background);
-  border-radius: 15px;
   justify-content: space-between;
   align-content: center;
 }
@@ -224,12 +221,15 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-between;
-  width: 60%;
+  justify-content: space-evenly;
+  width: 65%;
   height: 650px;
+  background-color: var(--background);
+  border-radius: 15px;
 }
 .hebergement_populaire .hebergement_left .hebergement_title h2 {
   font-size: var(--title-font-size);
+  margin-left: 15px;
 }
 
 .hebergement_populaire .hebergement_left .hebergement_left_flex {
@@ -244,19 +244,21 @@ main {
   height: 200px;
   border: 1px solid white;
   border-radius: 15px;
-  margin-bottom: 15px;
+  margin: 0 auto 15px auto;
   background-color: white;
 }
 
 .hebergement_populaire .hebergement_left .hebergement_left_more {
   font-weight: var(--title-font-weight);
   margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 .pupolaire_right {
   width: 30%;
   height: 650px;
-  border: 1px solid red;
+  background-color: var(--background);
+  border-radius: 15px;
 }
 
 /* Tablette Version  */
