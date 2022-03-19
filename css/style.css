@@ -254,53 +254,56 @@ main {
   transform: scale(1.03);
 }
 
-.card-1 {
-  background-image: url("../images/hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+.card {
   width: 100%;
   height: 120px;
   background-size: cover;
   background-position: center;
   border-radius: 15px 15px 0 0;
+}
+
+.card-1 {
+  background-image: url("../images/hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+
 }
 .card-2 {
   background-image: url("../images/hebergement/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-  width: 100%;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
+
 }
 .card-3 {
   background-image: url("../images/hebergement/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-  width: 100%;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
+
 }
 .card-4 {
   background-image: url("../images/hebergement/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-  width: 100%;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
+  
 }
 .card-5 {
   background-image: url("../images/hebergement/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-  width: 100%;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
+
 }
 .card-6 {
   background-image: url("../images/hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-  width: 100%;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 15px 15px 0 0;
+
+}
+
+.card_title,
+.card_p {
+  color: black;
+}
+
+.card_title,
+.card_p,
+.stars {
+  margin-left: 15px;
+}
+
+.blue_star {
+  color: #0065fc;
+}
+
+.grey_star {
+  color: lightgray;
 }
 
 .result .info {
