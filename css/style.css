@@ -220,11 +220,10 @@ main {
 .result .result_main {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 65%;
   padding: 15px;
   background-color: var(--background);
   border-radius: 15px;
-  margin-left: 25px;
 }
 
 .result .all_cards {
@@ -233,18 +232,71 @@ main {
   justify-content: space-around;
 }
 
+.result .result_title h2 {
+  font-size: var(--title-font-size);
+  margin-left: 20px;
+}
+
 .result .all_cards a {
-  width: 30%;
-  height: 200px;
+  width: 300px;
   background-color: white;
   border-radius: 15px;
   cursor: pointer;
   margin-bottom: 30px;
+  text-decoration: none;
 }
 
-.result .result_title h2 {
-  font-size: var(--title-font-size);
-  margin-left: 20px;
+.result .all_cards a:hover {
+  transform: scale(1.03);
+}
+
+.card-1 {
+  background-image: url("../images/hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.card-2 {
+  background-image: url("../images/hebergement/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.card-3 {
+  background-image: url("../images/hebergement/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.card-4 {
+  background-image: url("../images/hebergement/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.card-5 {
+  background-image: url("../images/hebergement/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
+}
+.card-6 {
+  background-image: url("../images/hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+  width: 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0;
 }
 
 .result .info {
