@@ -22,6 +22,9 @@ body {
 /*  Header  */
 
 header {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -69,6 +72,9 @@ header nav a {
 
 /* Main  */
 main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
 }
 
