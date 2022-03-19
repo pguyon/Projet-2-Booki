@@ -208,94 +208,81 @@ main {
   font-weight: 900;
 }
 
-/* HResult */
-
+/* Result */
 .result {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  height: 675px;
-  margin-top: 25px;
-  margin-left: 30px;
+  margin-top: 1%;
 }
 
-.result_main {
+.hebergement {
+  flex: 2;
   display: flex;
   flex-direction: column;
-  width: 60%;
-  padding: 15px;
   background-color: var(--background);
+  margin: 0 5% 0 2%;
+  padding: 2%;
   border-radius: 15px;
 }
-
-.all_cards {
+.allcards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
-
-.result_title h2 {
-  font-size: var(--title-font-size);
-  margin-left: 20px;
-}
-
-.all_cards a {
-  width: 300px;
-  background-color: white;
-  border-radius: 15px;
-  cursor: pointer;
-  text-decoration: none;
-  margin-bottom: 60px;
-  padding: 5px;
-  box-shadow: 2px 2px 5px 5px var(--background);
-}
-
-.all_cards a:hover {
-  transform: scale(1.03);
-}
-
 .card {
+  width: 300px;
+  height: 260px;
+  margin: 20px auto;
+  background-color: white;
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 15px;
+}
+
+.card_image {
+  height: 165px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card_image img {
   width: 100%;
-  height: 120px;
-  background-size: cover;
-  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 15px 15px 0 0;
 }
 
-.card-1 {
-  background-image: url("../images/hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-
+.card a {
+  text-decoration: none;
 }
-.card-2 {
-  background-image: url("../images/hebergement/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-
-}
-.card-3 {
-  background-image: url("../images/hebergement/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-
-}
-.card-4 {
-  background-image: url("../images/hebergement/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-  
-}
-.card-5 {
-  background-image: url("../images/hebergement/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-
-}
-.card-6 {
-  background-image: url("../images/hebergement/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-
-}
-
-.card_title,
-.card_p {
+.card figcaption {
   color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: -4%;
+  margin-left: 25px;
 }
 
-.card_title,
-.card_p,
-.stars {
-  margin-left: 15px;
+.card .price,
+.card .stars,
+.more p {
+  margin-left: 25px;
+}
+.card .price {
+  margin-top: 1%;
+}
+
+.card .stars {
+  margin-top: -2%;
+}
+
+.more p {
+  font-weight: bold;
+}
+
+.populaire {
+  flex: 1;
+  background-color: lightblue;
 }
 
 .blue_star {
