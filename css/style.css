@@ -223,7 +223,7 @@ main {
 }
 
 .hebergement {
-  flex: 2;
+  width: 60%;
   display: flex;
   flex-direction: column;
   background-color: var(--background);
@@ -237,13 +237,14 @@ main {
   justify-content: space-between;
 }
 
-.allcards a {
+.allcards a,
+.populaire a {
   text-decoration: none;
 }
 
-.allcards a:hover {
-  transform: scale(1.01);
-  filter: brightness(1.1);
+.allcards a:hover,
+.populaire a:hover {
+  filter: brightness(1.15);
 }
 .card {
   width: 300px;
@@ -290,17 +291,10 @@ main {
 }
 
 .populaire {
-  flex: 1;
+  width: 30%;
   background-color: var(--background);
   border-radius: 15px;
   padding: 2%;
-}
-
-.populaire_title {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .blue_star {
@@ -314,6 +308,49 @@ main {
 .result .info {
   margin-bottom: 20px;
   font-weight: bold;
+}
+
+.populaire_title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.populaire_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 175px;
+  width: 90%;
+  position: relative;
+  padding: 1%;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0px 5px 20px #999;
+  margin: 20px auto;
+}
+
+.populaire_card img {
+  position: absolute;
+  width: 40%;
+  height: 95%;
+  border-radius: 15px 0 0 15px;
+  object-fit: fill;
+}
+
+.populaire_description_2 {
+  margin-left: -30%;
+}
+
+.populaire_card_title h2 {
+  font-size: var(--cardTitle-font-size);
+  color: black;
+  margin: 5% 0 0 7%;
+}
+
+.populaire_stars {
+  margin-top: 20%;
 }
 
 /* Tablette Version  */
