@@ -291,7 +291,16 @@ main {
 
 .populaire {
   flex: 1;
-  background-color: lightblue;
+  background-color: var(--background);
+  border-radius: 15px;
+  padding: 2%;
+}
+
+.populaire_title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .blue_star {
