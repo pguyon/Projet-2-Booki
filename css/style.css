@@ -448,8 +448,13 @@ main {
     background-color: white;
   }
 
-  .card {
+  .hebergement_title {
     width: 200%;
+    margin-left: -20%;
+  }
+
+  .card {
+    width: 205%;
     margin-left: -15%;
   }
 
@@ -458,5 +463,8 @@ main {
     width: 125%;
     margin-left: -12%;
     border-radius: 0;
+  }
+  .populaire h2 {
+    margin-left: 1%;
   }
 }
