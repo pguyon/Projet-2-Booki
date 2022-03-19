@@ -244,6 +244,7 @@ main {
   cursor: pointer;
   margin-bottom: 30px;
   text-decoration: none;
+  padding: 15px;
 }
 
 .result .all_cards a:hover {
