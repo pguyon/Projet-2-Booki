@@ -435,29 +435,28 @@ main {
     margin: 0;
     width: 110%;
   }
+
+  /* Result */
   .result {
     width: 100%;
     justify-content: center;
-  }
-  .result_main {
-    width: 100%;
-    background-color: white;
-    margin-left: -50px;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
-  .all_cards a {
-    margin-bottom: 10px;
-    box-shadow: 2px 2px 5px 5px var(--background);
-  }
-
-  .result_title {
-    margin-left: -25px;
-  }
   .hebergement {
     background-color: white;
   }
 
-  .hebergement_title h2 {
-    margin: 10px 0 0 0;
+  .card {
+    width: 200%;
+    margin-left: -15%;
+  }
+
+  .populaire {
+    margin-top: 5%;
+    width: 125%;
+    margin-left: -12%;
+    border-radius: 0;
   }
 }
