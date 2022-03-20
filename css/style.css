@@ -290,8 +290,14 @@ main {
   margin-left: 2%;
 }
 
-.more p {
+.more {
+  padding: 20px 0;
+}
+
+.more a {
   font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
 
 /* Populaire */
