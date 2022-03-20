@@ -214,6 +214,10 @@ main {
   font-weight: 900;
 }
 
+.info_text {
+  font-weight: 100;
+}
+
 /* Result */
 .result {
   display: flex;
