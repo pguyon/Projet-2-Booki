@@ -225,6 +225,7 @@ main {
   margin-top: 1%;
 }
 
+/* Hebergement */
 .hebergement {
   width: 60%;
   display: flex;
@@ -293,6 +294,8 @@ main {
   font-weight: bold;
 }
 
+/* Populaire */
+
 .populaire {
   width: 30%;
   background-color: var(--background);
@@ -314,7 +317,7 @@ main {
 }
 
 .populaire_title {
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .populaire_card {
