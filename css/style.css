@@ -241,6 +241,11 @@ main {
   justify-content: space-between;
 }
 
+#ancre_une {
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+}
+
 .allcards a,
 .populaire a {
   text-decoration: none;
@@ -326,6 +331,11 @@ main {
   flex-wrap: wrap;
 }
 
+.populaire_title h2 {
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+}
+
 .populaire_card {
   display: flex;
   flex-wrap: wrap;
@@ -360,6 +370,12 @@ main {
 
 .populaire_stars {
   margin-top: 20%;
+}
+
+#ancre_deux {
+  margin: 50px 0 0 30px;
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
 }
 
 /* Tablette Version  */
