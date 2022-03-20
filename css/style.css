@@ -35,6 +35,15 @@ body {
   font-family: var(--main-font-family);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
 /*  Header  */
 
 header {
@@ -376,6 +385,29 @@ main {
   margin: 50px 0 0 30px;
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--background);
+}
+.main_footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: space-between;
+  background-color: var(--background);
+  padding: 1%;
+  margin-left: 7%;
+}
+
+.main_footer li {
+  margin: 0 0 10px -40px;
+}
+
+.main_footer a {
+  font-size: var(--p-font-size);
 }
 
 /* Tablette Version  */
