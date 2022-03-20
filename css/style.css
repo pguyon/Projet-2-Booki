@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap"); /*  Create Variables  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/*  Create Variables  */
 :root {
   --main-font-family: "Raleway", sans-serif;
   --background: #f2f2f2;
@@ -9,6 +11,19 @@
   --p-font-size: 15px;
   --p-font-weight: 500;
   --cardTitle-font-size: 18px;
+}
+
+/* Flex class */
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 * {
@@ -26,10 +41,7 @@ header {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
   padding: 15px;
 }
 
@@ -95,7 +107,6 @@ main {
 .searchbar {
   display: flex;
   padding: 15px;
-
   height: 70px;
   margin-left: 15px;
 }
@@ -154,9 +165,6 @@ main {
 .filter_box {
   border: 2px solid var(--background);
   border-left: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 50px;
   border-radius: 30px;
   margin-right: 20px;
@@ -169,9 +177,6 @@ main {
 }
 
 .filter_icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 25px;
   width: 52px;
   height: 52px;
@@ -180,9 +185,6 @@ main {
 }
 
 .input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-left: 20px;
   padding-right: 20px;
   color: black;
@@ -205,9 +207,6 @@ main {
 }
 
 .info_icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 25px;
   width: 20px;
   height: 20px;
@@ -311,10 +310,7 @@ main {
 }
 
 .populaire_title {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap; 
 }
 
 .populaire_card {
@@ -467,4 +463,8 @@ main {
   .populaire h2 {
     margin-left: 1%;
   }
+}
+
+/* Under 360 px */
+@media screen and (max-width: 360px) {
 }
