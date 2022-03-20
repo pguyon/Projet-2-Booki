@@ -191,6 +191,7 @@ main {
   height: 52px;
   color: var(--main-blue);
   background-color: var(--light-blue);
+  padding: 17px 17px;
 }
 
 .input {
@@ -221,6 +222,7 @@ main {
   height: 20px;
   color: var(--main-blue);
   font-weight: 900;
+  padding: 8px 8px;
 }
 
 .info_text {
@@ -408,6 +410,10 @@ footer {
 
 .main_footer a {
   font-size: var(--p-font-size);
+}
+
+.main_footer a:hover {
+  color: #999;
 }
 
 /* Tablette Version  */
