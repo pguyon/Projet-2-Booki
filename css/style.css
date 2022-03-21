@@ -413,21 +413,38 @@ footer {
 }
 /* Modile Version */
 @media screen and (max-width: 767px) {
+  /* HEADER */
+
   header {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
   }
+
   header img {
-    margin-left: auto;
-    margin-right: auto;
+    margin-right: 25px;
   }
 
   header nav {
-    justify-content: space-evenly;
-    margin: 15px 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  .navlink {
+    width: 50%;
+    text-align: center;
   }
 
   .navlink[data-click="true"] {
+    border-top: none;
+    border-bottom: 2px solid var(--main-blue);
+  }
+
+  .navlink[data-click="false"]:hover {
     border-top: none;
     border-bottom: 2px solid var(--main-blue);
   }
