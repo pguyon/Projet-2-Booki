@@ -499,9 +499,9 @@ footer {
   /* info */
   .info {
     display: flex;
-    flex-wrap: nowrap;
+
     margin: 0;
-    width: 110%;
+    width: 100%;
   }
 
   /* Result */
@@ -510,6 +510,7 @@ footer {
     justify-content: center;
     display: flex;
     flex-direction: column-reverse;
+    padding: 0;
   }
 
   .hebergement {
