@@ -513,19 +513,20 @@ footer {
     padding: 0;
   }
 
+  /* Hberfement */
+
   .hebergement {
+    width: 100%;
     background-color: white;
   }
 
-  .hebergement_title {
-    width: 200%;
-    margin-left: -20%;
+  .allcards,
+  .allcards a,
+  .card {
+    width: 100%;
   }
 
-  .card {
-    width: 205%;
-    margin-left: -15%;
-  }
+  /* Populaire */
 
   .populaire {
     margin-top: 5%;
