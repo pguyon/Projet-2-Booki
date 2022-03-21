@@ -47,6 +47,7 @@ ul {
 /*  Header  */
 
 header {
+  max-width: 1600px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -93,6 +94,7 @@ header nav a {
 
 /* Main  */
 main {
+  max-width: 1600px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -227,17 +229,16 @@ main {
 /* Result */
 .result {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 1%;
+
+  justify-content: space-between;
 }
 
 /* Hebergement */
 .hebergement {
-  width: 60%;
+  width: 66%;
   display: flex;
   flex-direction: column;
   background-color: var(--background);
-  margin: 0 5% 0 2%;
   padding: 2%;
   border-radius: 15px;
 }
@@ -264,10 +265,10 @@ main {
 
 .card {
   width: 300px;
-  margin: 20px auto;
   background-color: white;
   box-shadow: 0px 5px 20px #999;
   border-radius: 15px;
+  margin-bottom: 35px;
 }
 
 .card_image {
@@ -453,6 +454,7 @@ footer {
     border-bottom: 0.5px solid var(--background);
   }
 
+  /* Search */
   .search_section h1 {
     width: 80%;
     margin-left: 0;
