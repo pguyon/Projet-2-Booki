@@ -486,9 +486,15 @@ footer {
     font-weight: var(--title-font-weight);
     cursor: pointer;
   }
+
+  /* Filter */
+
+  .filter {
+    justify-content: space-between;
+  }
   .p_filter {
     width: 250px;
-    margin-left: -25px;
+    margin-left: -10px;
   }
   .filter_box {
     margin-bottom: 10px;
