@@ -405,10 +405,20 @@ footer {
 }
 
 /* Tablette Version  */
-@media screen and (max-width: 991px) {
+@media  only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Filter */
+   .filter{    
+    flex-wrap: nowrap; 
+    justify-content: space-between;   
+    margin: 0;   
+  }
+  
+  .p_filter {
+    display: none;
+  }
 }
 /* Modile Version */
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
   /* HEADER */
 
   main {
@@ -494,15 +504,18 @@ footer {
   /* Filter */
 
   .filter {
-    justify-content: space-between;
+    padding-left: 10px;    
+    margin-left: 0;
+    margin-bottom: 0;
   }
   .p_filter {
-    width: 250px;
-    margin-left: -10px;
+    width: 250px; 
+    margin-left: 10px;   
   }
   .filter_box {
     margin-bottom: 10px;
-    margin-left: -25px;
+    margin-right: 5px;
+   
   }
 
   /* info */
