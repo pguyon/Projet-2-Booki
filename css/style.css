@@ -447,7 +447,7 @@ footer {
 
   .populaire_card {
     display: block;
-    height: 325px;
+    height: 275px;
   }
 
   .populaire_description {
@@ -459,12 +459,20 @@ footer {
     height: 50%;
   }
 
+  .populaire_card_img img {
+    border-radius: 15px 15px 0 0;
+  }
+
   .populaire_p_deux {
     margin-bottom: 5px;
   }
 
-  .populaire_star_deux {
+  .populaire_stars {
     margin-top: 35px;
+  }
+
+  .populaire_star_deux {
+    margin-top: 15px;
   }
 }
 /* Modile Version */
