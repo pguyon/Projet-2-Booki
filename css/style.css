@@ -445,6 +445,20 @@ footer {
     margin-right: 10px;
   }
 
+  .populaire_card {
+    display: block;
+    height: 325px;
+  }
+
+  .populaire_description {
+    width: 100%;
+  }
+
+  .populaire_card_img {
+    width: 100%;
+    height: 50%;
+  }
+
   .populaire_p_deux {
     margin-bottom: 5px;
   }
