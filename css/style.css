@@ -332,6 +332,10 @@ main {
   font-weight: var(--title-font-weight);
 }
 
+.populaire_result a {
+  width: 100%;
+}
+
 .populaire_card {
   display: flex;
   width: 100%;
@@ -363,6 +367,7 @@ main {
 }
 
 .populaire_description h2 {
+  flex-wrap: wrap;
   font-size: var(--cardTitle-font-size);
   color: black;
   margin-bottom: 0;
@@ -414,6 +419,38 @@ footer {
 
   .p_filter {
     display: none;
+  }
+  /* Result */
+
+  .result {
+    display: block;
+  }
+
+  .hebergement {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  /* Populaire */
+  .populaire {
+    width: 100%;
+  }
+
+  .populaire_main {
+    display: flex;
+  }
+
+  .populaire_main a {
+    width: calc(100% / 3);
+    margin-right: 10px;
+  }
+
+  .populaire_p_deux {
+    margin-bottom: 5px;
+  }
+
+  .populaire_star_deux {
+    margin-top: 35px;
   }
 }
 /* Modile Version */
