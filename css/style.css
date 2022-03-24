@@ -381,6 +381,35 @@ main {
   margin-top: 25%;
 }
 
+/* Activity */
+
+.activity {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 50px;
+  padding: 10px 10px;
+}
+
+.activity_card {
+  width: calc(100% / 4);
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px #999;
+}
+
+.activity_card img {
+  width: 100%;
+  height: 85%;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+}
+
+.activity_card_title {
+  padding: 10px 10px;
+  font-size: var(--p-font-size);
+}
+
 /* Footer */
 
 footer {
