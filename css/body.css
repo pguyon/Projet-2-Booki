@@ -38,8 +38,30 @@ main {
   align-items: center;
 }
 
+#ancre_une {
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+}
+
+#ancre_deux {
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+  margin-top: 50px;
+}
+
+/* Hover effect */
+.allcards a:hover,
+.populaire a:hover,
+.activity a:hover {
+  filter: brightness(1.15);
+}
+
 @media only screen and (max-width: 767px) {
   main {
     padding: 0;
+  }
+
+  #ancre_deux {
+    padding-left: 10px;
   }
 }
