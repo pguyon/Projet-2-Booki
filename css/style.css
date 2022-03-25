@@ -5,6 +5,7 @@
 @import url("filter.css");
 @import url("info.css");
 @import url("result.css");
+@import url("stars.css");
 @import url("hebergement.css");
 @import url("populaire.css");
 @import url("activity.css");
@@ -21,18 +22,4 @@
   --p-font-size: 15px;
   --p-font-weight: 500;
   --cardTitle-font-size: 18px;
-}
-
-/* stars */
-.stars {
-  padding: 4%;
-  margin-left: 2%;
-}
-
-.blue_star {
-  color: #0065fc;
-}
-
-.grey_star {
-  color: lightgray;
 }
