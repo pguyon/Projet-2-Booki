@@ -404,13 +404,13 @@ main {
 
 .first_activity_container img {
   width: 100%;
-  height: 85%;
+  height: 91%;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
 
 .activity_card_title {
-  padding: 10px 10px;
+  padding-left: 10px;
   font-size: var(--p-font-size);
 }
 
@@ -428,7 +428,6 @@ main {
   height: 60%;
   border-radius: 15px;
   box-shadow: 0px 5px 20px #999;
-  margin-bottom: 10%;
 }
 
 .first_second_activity_card img {
@@ -451,7 +450,7 @@ main {
 }
 .last_second_activity_card img {
   width: 100%;
-  height: 75%;
+  height: 70%;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
