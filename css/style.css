@@ -4,9 +4,10 @@
 @import url("search.css");
 @import url("filter.css");
 @import url("info.css");
+@import url("result.css");
 @import url("footer.css");
 
-/*  Create Variables  */
+/*  Variables  */
 :root {
   --main-font-family: "Raleway", sans-serif;
   --background: #f2f2f2;
@@ -17,15 +18,6 @@
   --p-font-size: 15px;
   --p-font-weight: 500;
   --cardTitle-font-size: 18px;
-}
-
-/* Result */
-.result {
-  max-width: 1600px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 5px;
 }
 
 /* Hebergement */
@@ -272,12 +264,6 @@
 
 /* Tablette Version  */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* Result */
-
-  .result {
-    display: block;
-  }
-
   .hebergement {
     width: 100%;
     margin-bottom: 15px;
@@ -329,17 +315,6 @@
 }
 /* Modile Version */
 @media only screen and (max-width: 767px) {
-  /* info */
-
-  /* Result */
-  .result {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 0;
-  }
-
   /* Hberfement */
 
   .hebergement {
