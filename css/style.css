@@ -3,6 +3,7 @@
 @import url("search.css");
 @import url("filter.css");
 @import url("body.css");
+@import url("footer.css");
 
 /*  Create Variables  */
 :root {
@@ -297,31 +298,6 @@
 }
 
 /* Footer */
-
-footer {
-  background-color: var(--background);
-}
-.main_footer {
-  display: flex;
-  flex-wrap: wrap;
-  width: 60%;
-  justify-content: space-between;
-  background-color: var(--background);
-  padding: 1%;
-  margin-left: 7%;
-}
-
-.main_footer li {
-  margin: 0 0 10px -40px;
-}
-
-.main_footer a {
-  font-size: var(--p-font-size);
-}
-
-.main_footer a:hover {
-  color: #999;
-}
 
 /* Tablette Version  */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
