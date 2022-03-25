@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("body.css");
 @import url("header.css");
 @import url("search.css");
 @import url("filter.css");
-@import url("body.css");
+@import url("info.css");
 @import url("footer.css");
 
 /*  Create Variables  */
@@ -16,34 +17,6 @@
   --p-font-size: 15px;
   --p-font-weight: 500;
   --cardTitle-font-size: 18px;
-}
-
-/* Info */
-
-.info {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0 0 0 35px;
-}
-
-.info_description {
-  border: 1px solid grey;
-  border-radius: 45%;
-  margin-right: 15px;
-}
-
-.info_icon {
-  border-radius: 25px;
-  width: 20px;
-  height: 20px;
-  color: var(--main-blue);
-  font-weight: 900;
-  padding: 8px 8px;
-}
-
-.info_text {
-  font-weight: 100;
 }
 
 /* Result */
@@ -297,8 +270,6 @@
   object-fit: cover;
 }
 
-/* Footer */
-
 /* Tablette Version  */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* Result */
@@ -359,10 +330,6 @@
 /* Modile Version */
 @media only screen and (max-width: 767px) {
   /* info */
-  .info {
-    flex-wrap: nowrap;
-    margin-left: 15px;
-  }
 
   /* Result */
   .result {
