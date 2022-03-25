@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("header.css");
 
 /*  Create Variables  */
 :root {
@@ -47,50 +48,6 @@ ul {
 }
 
 /*  Header  */
-
-header {
-  max-width: 1600px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  flex-wrap: wrap;
-}
-
-header img {
-  height: 50px;
-  margin-left: 60px;
-}
-
-header nav {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: 60px;
-}
-
-header nav {
-  list-style: none;
-  display: inline-block;
-  position: relative;
-}
-
-header nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  position: relative;
-  padding: 15px 45px;
-}
-
-.navlink[data-click="true"] {
-  color: var(--main-blue);
-  border-top: 3px solid var(--main-blue);
-  padding: 15px;
-}
-
-.navlink:hover {
-  color: var(--main-blue);
-  border-top: 3px solid var(--main-blue);
-}
 
 /* Fin du Header */
 
@@ -577,43 +534,6 @@ footer {
 
   main {
     padding: 0;
-  }
-  header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-  }
-
-  header img {
-    margin-right: 25px;
-  }
-
-  header nav {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    margin: 0;
-  }
-
-  .navlink {
-    width: 50%;
-    text-align: center;
-  }
-
-  .navlink[data-click="true"] {
-    border-top: none;
-    border-bottom: 2px solid var(--main-blue);
-  }
-
-  .navlink[data-click="false"]:hover {
-    border-top: none;
-    border-bottom: 2px solid var(--main-blue);
-  }
-
-  .navlink {
-    border-bottom: 0.5px solid var(--background);
   }
 
   /* Search */
