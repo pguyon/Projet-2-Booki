@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("header.css");
+@import url("search.css");
 
 /*  Create Variables  */
 :root {
@@ -47,69 +48,11 @@ ul {
   list-style-type: none;
 }
 
-/*  Header  */
-
-/* Fin du Header */
-
 /* Main  */
 main {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* First_section  */
-.search_section h1 {
-  font-size: var(--title-font-size);
-  font-weight: var(--title-font-weight);
-  margin: 0 0 0 30px;
-}
-
-.search_section p {
-  font-size: var(--p-font-size);
-  font-weight: var(--p-font-weight);
-  margin: 5px 0 0 30px;
-}
-
-.searchbar {
-  display: flex;
-  padding: 15px;
-  height: 70px;
-  margin-left: 15px;
-}
-
-.form_picture {
-  background-color: var(--background);
-  border-radius: 10px 0 0 10px;
-  width: 40px;
-  padding: 10px 14px;
-}
-
-.form_input {
-  border: 0.5px solid var(--background);
-  font-weight: bold;
-  padding: 10px;
-  width: 225px;
-}
-
-.form_button_desktop {
-  background-color: var(--main-blue);
-  padding: 11px;
-  color: white;
-  border: none;
-  border-radius: 0 10px 10px 0;
-  font-size: var(--p-font-size);
-  font-weight: var(--title-font-weight);
-  cursor: pointer;
-}
-
-.form_button_mobile {
-  display: none;
-}
-
-.form_button_desktop:hover {
-  background-color: rgb(4, 4, 214);
-  color: white;
 }
 
 /* Filter  */
@@ -534,45 +477,6 @@ footer {
 
   main {
     padding: 0;
-  }
-
-  /* Search */
-  .search_section h1 {
-    width: 80%;
-    font-size: 22px;
-    font-weight: var(--title-font-weight);
-    margin: 20px 0 10px 15px;
-  }
-
-  .search_section p {
-    margin-left: 15px;
-  }
-
-  .searchbar {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .form_input {
-    width: 80%;
-    border-right: none;
-  }
-
-  .form_button_desktop {
-    display: none;
-  }
-
-  .form_button_mobile {
-    display: block;
-    margin-right: 25px;
-    background-color: var(--main-blue);
-    padding: 11px;
-    color: white;
-    border: none;
-    border-radius: 0px 10px 10px 0px;
-    font-size: var(--p-font-size);
-    font-weight: var(--title-font-weight);
-    cursor: pointer;
   }
 
   /* Filter */
