@@ -2,6 +2,7 @@
 @import url("header.css");
 @import url("search.css");
 @import url("filter.css");
+@import url("body.css");
 
 /*  Create Variables  */
 :root {
@@ -15,48 +16,6 @@
   --p-font-weight: 500;
   --cardTitle-font-size: 18px;
 }
-
-/* Flex class */
-.flexBetween {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flexCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  font-family: var(--main-font-family);
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-ul {
-  list-style-type: none;
-}
-
-/* Main  */
-main {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Filter  */
 
 /* Info */
 
@@ -366,8 +325,6 @@ footer {
 
 /* Tablette Version  */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  /* Filter */
-
   /* Result */
 
   .result {
@@ -425,14 +382,6 @@ footer {
 }
 /* Modile Version */
 @media only screen and (max-width: 767px) {
-  /* HEADER */
-
-  main {
-    padding: 0;
-  }
-
-  /* Filter */
-
   /* info */
   .info {
     flex-wrap: nowrap;
