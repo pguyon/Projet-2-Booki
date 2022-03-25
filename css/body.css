@@ -46,7 +46,6 @@ main {
 #ancre_deux {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);
-  margin-top: 50px;
 }
 
 /* Hover effect */
