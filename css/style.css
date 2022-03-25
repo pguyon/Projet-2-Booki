@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("header.css");
 @import url("search.css");
+@import url("filter.css");
 
 /*  Create Variables  */
 :root {
@@ -56,47 +57,6 @@ main {
 }
 
 /* Filter  */
-.filter {
-  margin-left: 35px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-bottom: 35px;
-}
-
-.p_filter {
-  margin-right: 30px;
-}
-
-.filter_box {
-  border: 2px solid var(--background);
-  border-left: none;
-  height: 50px;
-  border-radius: 30px;
-  margin-right: 20px;
-  cursor: pointer;
-}
-
-.filter_box:hover {
-  background-color: var(--background);
-  transform: scale(1.02);
-}
-
-.filter_icon {
-  border-radius: 25px;
-  width: 52px;
-  height: 52px;
-  color: var(--main-blue);
-  background-color: var(--light-blue);
-  padding: 17px 17px;
-}
-
-.input {
-  padding-left: 20px;
-  padding-right: 20px;
-  color: black;
-  font-weight: bold;
-}
 
 /* Info */
 
@@ -407,15 +367,7 @@ footer {
 /* Tablette Version  */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* Filter */
-  .filter {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: 0;
-  }
 
-  .p_filter {
-    display: none;
-  }
   /* Result */
 
   .result {
@@ -480,20 +432,6 @@ footer {
   }
 
   /* Filter */
-
-  .filter {
-    padding-left: 10px;
-    margin-left: 0;
-    margin-bottom: 0;
-  }
-  .p_filter {
-    width: 250px;
-    margin-left: 10px;
-  }
-  .filter_box {
-    margin-bottom: 10px;
-    margin-right: 5px;
-  }
 
   /* info */
   .info {
