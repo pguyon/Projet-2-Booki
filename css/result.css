@@ -1,8 +1,8 @@
 .result {
-  max-width: 1600px;
+  max-width: 2000px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 5px;
 }
 

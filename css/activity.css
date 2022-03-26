@@ -1,12 +1,14 @@
 .activity {
-  max-width: 1600px;
+  max-width: 2000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: calc(100% - 3%);
   height: 500px;
   margin-bottom: 50px;
-  padding: 10px 10px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .first_activity_container {
