@@ -1,20 +1,20 @@
 .search_section h1 {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);
-  margin: 0 0 0 30px;
+  margin: 0 0 0 50px;
 }
 
 .search_section p {
   font-size: var(--p-font-size);
   font-weight: var(--p-font-weight);
-  margin: 5px 0 0 30px;
+  margin: 5px 0 0 50px;
 }
 
 .searchbar {
   display: flex;
   padding: 15px;
   height: 70px;
-  margin-left: 15px;
+  margin-left: 35px;
 }
 
 .form_picture {
