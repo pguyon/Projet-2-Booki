@@ -43,8 +43,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .filter {
     flex-wrap: nowrap;
-    justify-content: space-between;
-    margin: 0;
+    margin-left: 2%;
   }
 
   .p_filter {
