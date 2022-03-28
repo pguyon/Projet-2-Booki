@@ -69,9 +69,13 @@
   .hebergement {
     width: 100%;
     background-color: white;
+    padding: 0;
   }
 
-  .allcards,
+  .allcards {
+    width: calc(100% - 5%);
+  }
+
   .allcards a,
   .card {
     width: 100%;
