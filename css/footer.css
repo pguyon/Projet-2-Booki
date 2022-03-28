@@ -23,3 +23,11 @@ footer {
 .main_footer a:hover {
   color: #999;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .main_footer {
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
+  }
+}
