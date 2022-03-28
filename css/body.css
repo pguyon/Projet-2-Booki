@@ -61,8 +61,11 @@ main {
     padding: 0;
   }
 
-  #ancre_deux,
   #ancre_une {
     padding-left: 10px;
+  }
+
+  #ancre_deux {
+    padding: 10px;
   }
 }

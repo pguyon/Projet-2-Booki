@@ -121,4 +121,8 @@
   .populaire h2 {
     margin-left: 1%;
   }
+
+  .populaire_icon {
+    margin-right: 15px;
+  }
 }
