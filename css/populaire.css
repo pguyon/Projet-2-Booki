@@ -70,6 +70,7 @@
 
   .populaire_main {
     display: flex;
+    width: 100%;
   }
 
   .populaire_main a {
