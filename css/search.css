@@ -56,20 +56,23 @@
     width: 80%;
     font-size: 22px;
     font-weight: var(--title-font-weight);
-    margin: 20px 0 10px 15px;
+    margin: 20px 0 10px 25px;
   }
 
   .search_section p {
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   .searchbar {
-    margin-left: 0;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-bottom: 15px;
   }
 
   .form_input {
     width: 80%;
+    height: 45px;
     border-right: none;
   }
 
@@ -79,14 +82,21 @@
 
   .form_button_mobile {
     display: block;
+    position: relative;
     margin-right: 25px;
     background-color: var(--main-blue);
-    padding: 11px;
+    padding: 13px;
     color: white;
     border: none;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px;
     font-size: var(--p-font-size);
     font-weight: var(--title-font-weight);
     cursor: pointer;
+    left: -40%;
+  }
+
+  .form_picture {
+    height: 45px;
+    padding-top: 12px;
   }
 }
