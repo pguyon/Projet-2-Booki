@@ -55,7 +55,7 @@ main {
 
 /* Hover effect */
 .allcards a:hover,
-.populaire a:hover,
+.populaire_card:hover,
 .activity a:hover {
   filter: brightness(1.15);
 }
