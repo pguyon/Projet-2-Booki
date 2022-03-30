@@ -64,19 +64,24 @@
   .filter {
     display: block;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
   
   }
   .filter_option {
     display: block;
-    flex-wrap: wrap;
   }
+  
   .p_filter {
     margin-left: 10px;
   }
   .filter_box {
     margin-bottom: 10px;
-    width: 60%;    
+    width: 70%;    
+  }
+
+  .input {
+    margin-left: auto;
+    margin-right: auto;
   }
 
  
