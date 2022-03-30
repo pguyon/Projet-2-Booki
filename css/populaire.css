@@ -58,6 +58,10 @@
   margin-top: 25%;
 }
 
+.populaire_star_deux {
+  margin-top: 18%;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .populaire {
     width: 100%;
