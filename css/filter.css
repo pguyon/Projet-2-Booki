@@ -37,6 +37,10 @@
   padding: 17px 17px;
 }
 
+.familial_icon {
+  padding: 18px 21px;
+}
+
 .input {
   padding-left: 20px;
   padding-right: 20px;
@@ -58,11 +62,13 @@
 
 @media only screen and (max-width: 767px) {
   .filter {
-    padding-left: 10px;
-    margin-left: 0;
-    margin-bottom: 0;
+    display: block;
+    margin: 0;
+    padding: 10px;
+  
   }
   .filter_option {
+    display: block;
     flex-wrap: wrap;
   }
   .p_filter {
@@ -70,10 +76,9 @@
   }
   .filter_box {
     margin-bottom: 10px;
-    margin-right: 5px;
+    width: 60%;    
   }
 
-  .filter_box1 {
-    width: 50%;
-  }
+ 
+
 }
