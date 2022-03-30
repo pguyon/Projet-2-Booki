@@ -10,6 +10,10 @@
   margin-right: auto;
 }
 
+.activity a {
+  position: relative;
+}
+
 .first_activity_container,
 .third_activity_container {
   width: calc(100% / 5);
@@ -25,6 +29,16 @@
   height: 90%;
   border-radius: 15px 15px 0 0;
   object-fit: cover;
+}
+
+.activity_card_title {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 13px 10px;
+
+  
 }
 
 .activity_card_title {
@@ -179,3 +193,6 @@
     height: 71%;
   }
 }
+
+
+
