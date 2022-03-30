@@ -42,15 +42,15 @@ main {
   align-items: center;
 }
 
-#ancre_une {
+#link_one {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);
 }
 
-#ancre_deux {
+#link_two {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);
-  padding: 2% 0 0 3%;
+  padding: 2% 0 0 3.5%;
 }
 
 /* Hover effect */
