@@ -19,7 +19,7 @@ ul {
 }
 
 h2 {
-  font-size: var(--title-font-size);
+  font-size: var(--h2-font-size);
 }
 
 /* Main  */
