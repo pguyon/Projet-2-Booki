@@ -9,6 +9,9 @@ body {
   font-family: var(--main-font-family);
 }
 
+h6 {
+  font-size: 15px;
+}
 a {
   text-decoration: none;
   color: black;
