@@ -9,14 +9,14 @@
 .allcards {
   display: flex;
   flex-wrap: wrap;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
 .allcards a {
   width: 30%;
 }
 
-.card {  
+.card {
   background-color: white;
   box-shadow: 0px 5px 20px #999;
   border-radius: 15px;
@@ -42,10 +42,9 @@
   font-size: var(--cardTitle-font-size);
   color: black;
   margin: 0;
- 
 }
 
-.price {  
+.price {
   color: black;
   margin: 0;
 }
@@ -53,13 +52,11 @@
 .stars {
   margin: 0;
   padding: 2% 0;
- 
 }
 
-.more{
+.more {
   margin-bottom: 10px;
 }
-
 
 .more a {
   font-weight: bold;
@@ -83,11 +80,11 @@
   .hebergement {
     width: 100%;
     background-color: white;
-    padding: 0;
+    padding: 10px;
   }
 
   .allcards {
-    width: calc(100% - 5%);
+    width: 100%;
   }
 
   .allcards a,
