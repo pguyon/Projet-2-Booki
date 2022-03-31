@@ -138,7 +138,7 @@ h3 {
 
   .first_card,
   .fourth_card {
-    width: 100%;
+    width: 100%;    
     box-shadow: 0px 5px 20px #999;
     border-radius: 15px;
     margin-bottom: 20px;
@@ -150,14 +150,15 @@ h3 {
     margin-bottom: 20px;
   }
 
-  .second_card {
+  .second_card, .third_card, .fifth_card, .last_card {
     width: 100%;
     height: 277px;
+    margin-bottom: 20px;
   }
-  .card_img2 {
+  .card_img2, .card_img3, .card_img5, .card_img6{
     width: 100%;
   }
-  .card_img2 img {
+  .card_img2 img, .card_img3 img, .card_img5 img , .card_img6 img{
     width: 100%;
   }
 }
