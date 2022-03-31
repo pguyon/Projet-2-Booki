@@ -115,6 +115,10 @@
     border-radius: 0;
   }
 
+  .populaire_card {
+    width: 100%;
+  }
+
   .populaire_main {
     width: calc(100% - 5%);
     display: inline;
