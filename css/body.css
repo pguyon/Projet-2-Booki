@@ -42,7 +42,7 @@ main {
   align-items: center;
 }
 
-#link_one {
+#link_one, h2 {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);
 }
