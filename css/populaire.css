@@ -15,7 +15,7 @@
 
 .populaire_card {
   display: flex;
-  width: calc(100% = 2.5%);
+  width: calc(100% - 2.5%);
   height: 175px;
   border-radius: 15px;
   background-color: white;
