@@ -65,25 +65,22 @@
     display: block;
     margin: 0;
     padding: 20px;
-  
   }
   .filter_option {
     display: block;
   }
-  
+
   .p_filter {
     margin-left: 10px;
   }
   .filter_box {
     margin-bottom: 10px;
-    width: 70%;    
+    width: 70%;
   }
 
   .input {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
   }
-
- 
-
 }
