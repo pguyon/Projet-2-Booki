@@ -124,7 +124,60 @@ h3 {
   border-radius: 0 0 15px 15px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
+  .activity {
+    flex-wrap: wrap;
+    height: auto;
+    align-items: baseline;
+    }
+    
+    .first_card, .fourth_card {
+    width: 30%;
+    height: 277px;
+    }
+    
+    .card_img1, .card_img4 {
+    height: 80%;
+    }
+    
+    
+    .first_activity_container {
+    display:flex;
+    flex-direction: row;
+    width: 60%;
+    height: 277px;
+    position: relative;
+    top: 30px;
+    }
+
+    .last_activity_container{
+      display:flex;
+      flex-direction: row;
+      width: 60%;
+      height: 277px;
+      position: relative;
+      top: 30px;
+    }
+    
+    .second_card, .third_card, .fifth_card, .last_card {
+    width: 45%;
+    height: 100%;
+    }
+    
+    .card_img3, .card_img5 {
+      height: 80%;
+    }
+
+    .card_img3 img, .card_img5 img {
+      height: 100%;
+    }
+    
+    
+    .card_title3, .card_title5 {
+      padding-top: 15px;
+      height: 15%;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
