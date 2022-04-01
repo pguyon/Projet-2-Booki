@@ -6,7 +6,7 @@
   padding: 5px;
 }
 
-@media only screen and (min-width: 731px) and (max-width: 1101px) {
+@media only screen and (min-width: 731px) and (max-width: 1300px) {
   .result {
     display: block;
   }

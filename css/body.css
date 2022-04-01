@@ -9,9 +9,11 @@ body {
   font-family: var(--main-font-family);
 }
 
+h3,
 h6 {
   font-size: 15px;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -45,7 +47,8 @@ main {
   align-items: center;
 }
 
-#link_one, h2 {
+#link_one,
+h2 {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);
 }

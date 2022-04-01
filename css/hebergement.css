@@ -64,7 +64,7 @@
   color: black;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1100px) {
+@media only screen and (min-width: 768px) and (max-width: 1300px) {
   .hebergement {
     width: 100%;
     margin-bottom: 15px;
