@@ -146,9 +146,10 @@ h3 {
   }
   .first_activity_container,
   .last_activity_container {
-    width: 100%;
-    height: 100%;
+    width: 100%;  
   }
+
+ 
 
   .second_card,
   .third_card,
@@ -158,6 +159,8 @@ h3 {
     height: 277px;
     margin-bottom: 20px;
   }
+
+  
   .card_img2,
   .card_img3,
   .card_img5,
@@ -170,4 +173,14 @@ h3 {
   .card_img6 img {
     width: 100%;
   }
+
+  .first_card, .fourth_card {    
+    height: 277px;
+    }
+    
+    
+    .card_img1, .card_img4 {      
+    height: 80%;
+    object-fit: cover;
+    }
 }

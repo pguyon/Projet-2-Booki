@@ -59,14 +59,15 @@
 }
 
 .populaire_stars {
-  margin-top: 25%;
+  /* margin-top: 25%; */
+  padding-top: 25%;
 }
 
 .populaire_star_deux {
-  margin-top: 18%;
+  padding-top: 16%;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1100px) {
   .populaire {
     width: 100%;
   }
@@ -133,5 +134,9 @@
 
   .populaire_icon {
     margin-right: 15px;
+  }
+
+  .populaire_stars {
+    padding-top: 10%;
   }
 }
