@@ -124,7 +124,7 @@ h3 {
   border-radius: 0 0 15px 15px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1300px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .activity {
     flex-wrap: wrap;
     height: auto;
