@@ -20,7 +20,6 @@ header nav {
 
 header nav {
   list-style: none;
- 
 }
 
 header nav a {
@@ -28,7 +27,7 @@ header nav a {
   display: block;
   color: black;
   font-weight: bold;
- 
+
   padding: 15px 45px;
 }
 
@@ -41,6 +40,10 @@ header nav a {
 .navlink:hover {
   color: var(--main-blue);
   border-top: 2px solid var(--main-blue);
+}
+
+.second_navLink {
+  border-top: 2px solid white;
 }
 
 @media only screen and (max-width: 767px) {
