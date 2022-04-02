@@ -43,15 +43,19 @@
 
 .populaire_description {
   width: 60%;
-  height: 100%;
+  height: 90%;
   padding: 1% 5%;
+}
+
+.populaire_description p {
+  margin-bottom: 0;
 }
 
 .populaire_description h2 {
   flex-wrap: wrap;
   font-size: var(--cardTitle-font-size);
   color: black;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .populaire_description p {
@@ -59,11 +63,11 @@
 }
 
 .populaire_stars {
-  padding-top: 50px;
+  padding-top: 38%;
 }
 
 .populaire_star_deux {
-  padding-top: 30px;
+  padding-top: 30%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
