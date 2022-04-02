@@ -55,19 +55,20 @@
   flex-wrap: wrap;
   font-size: var(--cardTitle-font-size);
   color: black;
-  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 1%;
 }
 
 .populaire_description p {
-  margin-top: 5px;
+  margin: 0;
 }
 
 .populaire_stars {
-  padding-top: 38%;
+  padding-top: 30%;
 }
 
 .populaire_star_deux {
-  padding-top: 28%;
+  padding-top: 22%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
