@@ -86,13 +86,13 @@
   }
 
   .populaire_main a {
-    height: 28%;
+    height: 248px;
   }
 
   .populaire_card {
-    height: 26%;
+    height: 248px;
     display: block;
-    margin-bottom: 46px;
+    margin-bottom: 45px;
   }
 
   .populaire_card_img {
@@ -160,7 +160,7 @@
 
   .populaire_stars {
     margin-top: 0;
-    padding-top: 25px;
+    padding-top: 40px;
   }
 
   .populaire_star_deux {
@@ -193,6 +193,6 @@
   }
 
   .populaire_stars {
-    padding-top: 10%;
+    padding-top: 20%;
   }
 }
