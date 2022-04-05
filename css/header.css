@@ -45,7 +45,7 @@ header nav a {
   border-top: 2px solid white;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   header {
     width: 100%;
     display: flex;
