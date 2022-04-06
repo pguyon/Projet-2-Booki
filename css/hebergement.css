@@ -14,7 +14,7 @@
 
 .allcards a {
   width: 30%;
-  height: 43%;
+  height: 42%;
 }
 
 .card {
@@ -57,7 +57,7 @@
 }
 
 .more {
-  margin-bottom: 10px;
+  padding-top: 15ox;
 }
 
 .more a {
