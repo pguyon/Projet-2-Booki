@@ -82,6 +82,7 @@
 
   .populaire_description {
     width: 100%;
+    height: 50%;
   }
 
   .populaire_card_img {
@@ -95,16 +96,6 @@
 
   .populaire_p_deux {
     margin-bottom: 5px;
-  }
-
-  .populaire_stars {
-    margin-top: 0;
-    padding-top: 40px;
-  }
-
-  .populaire_star_deux {
-    margin-top: 0;
-    padding-top: 18px;
   }
 }
 
