@@ -124,6 +124,11 @@ h3 {
   .fourth_card {
     width: 30%;
     height: 277px;
+    top: 30px;
+  }
+
+  .fourth_card {
+    top: 88px;
   }
 
   .card_img1,
