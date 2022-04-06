@@ -56,7 +56,8 @@ h2 {
 #link_two {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);
-  padding: 2% 0 0 3.5%;
+  margin: 0;
+  padding: 50px 50px 20px;
 }
 
 /* Hover effect */

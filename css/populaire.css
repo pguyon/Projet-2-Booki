@@ -62,21 +62,22 @@
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .populaire {
     width: 100%;
+    padding: 10px;
   }
 
   .populaire_main {
     display: flex;
-
-    width: 100%;
+    justify-content: space-between;
   }
 
   .populaire_main a {
-    width: calc(100% / 3);
+    width: 30%;
     margin-right: 10px;
   }
 
   .populaire_card {
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: 275px;
   }
 
