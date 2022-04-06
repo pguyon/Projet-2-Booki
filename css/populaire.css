@@ -19,7 +19,6 @@
 
 .populaire_card {
   display: flex;
-
   height: 175px;
   border-radius: 15px;
   background-color: white;
@@ -42,33 +41,22 @@
 }
 
 .populaire_description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 60%;
-  height: 90%;
-  padding: 1% 5%;
-}
-
-.populaire_description p {
-  margin-bottom: 0;
+  height: 100%;
+  padding: 20px;
 }
 
 .populaire_description h2 {
-  flex-wrap: wrap;
   font-size: var(--cardTitle-font-size);
   color: black;
-  margin-top: 5%;
-  margin-bottom: 1%;
+  margin: 0 0 5px 0;
 }
 
 .populaire_description p {
   margin: 0;
-}
-
-.populaire_stars {
-  padding-top: 30%;
-}
-
-.populaire_star_deux {
-  padding-top: 22%;
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
@@ -181,7 +169,7 @@
   }
 }
 
-@media all and (min-width: 600px) and (max-width: 768px) {
+/* @media all and (min-width: 600px) and (max-width: 768px) {
   .populaire_stars {
     padding-top: 20%;
   }
@@ -197,4 +185,4 @@
   .populaire_star_deux {
     padding-top: 25%;
   }
-}
+} */
