@@ -8,11 +8,17 @@ footer {
 .main_footer {
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
   justify-content: space-between;
   background-color: var(--background);
-  padding: 1%;
-  margin-left: 7%;
+  padding: 50px;
+}
+
+.main_footer div {
+  width: 33.33%;
+}
+
+.main_footer div h2 {
+  margin: 0;
 }
 
 .main_footer li {
