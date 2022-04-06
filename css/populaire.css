@@ -59,56 +59,6 @@
   margin: 0;
 }
 
-@media only screen and (min-width: 993px) and (max-width: 1200px) {
-  .populaire {
-    width: 40%;
-  }
-
-  .populaire_main {
-    width: 100%;
-    height: 101%;
-  }
-
-  .populaire_title {
-    margin-bottom: 0;
-  }
-
-  .populaire_main a {
-    height: 248px;
-  }
-
-  .populaire_card {
-    height: 248px;
-    display: block;
-    margin-bottom: 45px;
-  }
-
-  .populaire_card_img {
-    width: 100%;
-    height: 65%;
-  }
-
-  .populaire_card_img img {
-    border-radius: 15px 15px 0 0;
-  }
-
-  .populaire_description {
-    width: 100%;
-  }
-
-  .populaire_description h2 {
-    margin-top: 2%;
-  }
-
-  .populaire_card_img h2 {
-    margin: 5px 0 0 0;
-  }
-
-  .populaire_stars {
-    padding-top: 3px;
-  }
-}
-
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   .populaire {
     width: 100%;
@@ -116,6 +66,7 @@
 
   .populaire_main {
     display: flex;
+
     width: 100%;
   }
 
@@ -168,21 +119,3 @@
     overflow: hidden;
   }
 }
-
-/* @media all and (min-width: 600px) and (max-width: 768px) {
-  .populaire_stars {
-    padding-top: 20%;
-  }
-}
-
-@media all and (max-width: 500px) {
-  .populaire_stars {
-    padding-top: 35%;
-  }
-}
-
-@media all and (min-width: 400px) and (max-width: 499px) {
-  .populaire_star_deux {
-    padding-top: 25%;
-  }
-} */
