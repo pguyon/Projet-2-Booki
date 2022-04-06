@@ -27,10 +27,17 @@ footer {
   color: #999;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
   .main_footer {
     width: 100%;
     margin: 0;
     justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .main_footer {
+    display: flex;
+    flex-direction: column;
   }
 }
