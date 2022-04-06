@@ -180,3 +180,21 @@
     overflow: hidden;
   }
 }
+
+@media all and (min-width: 600px) and (max-width: 768px) {
+  .populaire_stars {
+    padding-top: 20%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .populaire_stars {
+    padding-top: 35%;
+  }
+}
+
+@media all and (min-width: 400px) and (max-width: 499px) {
+  .populaire_star_deux {
+    padding-top: 25%;
+  }
+}
