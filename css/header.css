@@ -1,11 +1,10 @@
 header {
   max-width: 2000px;
-  width: 100%;
 }
 
 header img {
   height: 50px;
-  margin-left: 60px;
+  padding-left: 60px;
 }
 
 header nav {
@@ -23,13 +22,12 @@ header nav a {
   display: block;
   color: black;
   font-weight: bold;
-  padding: 50px 45px;
+  padding: 50px;
 }
 
 .navlink[data-click="true"] {
   color: var(--main-blue);
   border-top: 2px solid var(--main-blue);
-  /* padding: 30px; */
 }
 
 .navlink:hover {
@@ -43,7 +41,6 @@ header nav a {
 
 @media only screen and (max-width: 768px) {
   header {
-    width: 100%;
     display: flex;
     flex-direction: column;
     padding-top: 20px;
@@ -78,6 +75,6 @@ header nav a {
   }
 
   .navlink {
-    border-bottom: 0.5px solid var(--background);
+    border-bottom: 2px solid var(--background);
   }
 }
