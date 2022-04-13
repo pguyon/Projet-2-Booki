@@ -119,6 +119,8 @@ h3 {
     flex-wrap: wrap;
     height: auto;
     align-items: baseline;
+    width: 100%;
+    padding: 15px;
   }
 
   .first_card,

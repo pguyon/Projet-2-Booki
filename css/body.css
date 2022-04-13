@@ -57,7 +57,7 @@ h2 {
   font-size: var(--title-font-size);
   font-weight: var(--title-font-weight);
   margin: 0;
-  padding: 50px 50px 20px;
+  padding: 50px 0px 20px 50px;
 }
 
 /* Hover effect */
@@ -70,6 +70,9 @@ h2 {
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   #ancre_une {
     padding: 1%;
+  }
+  #link_two {
+    padding: 50px 0px 0px 20px;
   }
 }
 
@@ -84,5 +87,9 @@ h2 {
 
   #ancre_deux {
     padding: 10px;
+  }
+
+  #link_two {
+    padding: 15px;
   }
 }
