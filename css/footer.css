@@ -45,5 +45,15 @@ footer {
   .main_footer {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+  }
+
+  .main_footer div {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .main_footer div ul {
+    margin: 10px 0px 0px 0px;
   }
 }
